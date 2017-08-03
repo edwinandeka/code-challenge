@@ -1,0 +1,105 @@
+
+/**
+ * @author edwinandeka@gmail.com (Edwin Ramiro Ospina Ruiz)
+ * @date   30 jul 2017
+ * @version  1.0
+ *
+ * @description  estilos del formulario de crear y actualizar articulo (son el mismo componente)
+ *
+ * formateado con https://autoprefixer.github.io/
+ */
+.create-article input[type=text],
+.create-article input[type=email],
+.create-article select {
+    width: 100%;
+    height: 34px;
+    margin-bottom: 16px;
+        padding: 4px 8px;
+}
+
+.create-article textarea {
+    width: 100%;
+    margin-bottom: 16px;
+        padding: 4px 8px;
+        font-family: sans-serif;
+}
+
+.create-article label {
+    padding: 21px 0px;
+    line-height: 32px;
+    color: #444;
+    font-weight: 600;
+}
+
+.create-article .subtitle {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    color: #444;
+}
+
+.create-article input[type="checkbox"] {
+    cursor: pointer;
+    height: 14px;
+    width: 16px;
+}
+
+.create-article input[type="checkbox"] + label {
+  padding-left: 8px;
+}
+
+
+.create-article input[type="checkbox"]:before {
+    content: ' ';
+    background-color: #F5F5F5;
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    pointer-events: none;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+}
+
+.create-article input[type="checkbox"]:after {
+    content: ' ';
+    background-color: #F5F5F5;
+    width: 11px;
+    height: 8px;
+    position: absolute;
+    pointer-events: none;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.create-article input[type="checkbox"]:checked:after  {
+  background-color: green;
+}
+
+.create-article label small {
+    color: #9E9E9E;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.create-article .btn-clean,
+.create-article .btn-save {
+    border: 0;
+    padding: 8px 24px;
+    margin-right: 8px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.create-article .btn-clean {
+    background: #f2f2f2;
+    color: #9E9E9E;
+}
+
+.create-article .btn-save {
+  background: #4CAF50;
+}
+
+.create-article .btn-clean:hover,
+.create-article .btn-save:hover {
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.25);
+          box-shadow: 0 2px 5px rgba(0,0,0,.25);
+}

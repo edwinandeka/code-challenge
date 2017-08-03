@@ -1,0 +1,21 @@
+
+/**
+ * @author edwinandeka@gmail.com (Edwin Ramiro Ospina Ruiz)
+ * @date   26 jul 2017
+ * @version  1.0
+ *
+ * @description  estilos principales de la página
+ * formateado con https://autoprefixer.github.io/
+ */
+
+body {
+    background: #f4f4f4;
+    background-image: url(/img/background.png);
+    margin: 0;
+        font-family: sans-serif;
+}
+
+.container {
+    width: 1024px;
+    margin: 30px auto;
+}

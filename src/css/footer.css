@@ -1,0 +1,51 @@
+
+/**
+ * @author edwinandeka@gmail.com (Edwin Ramiro Ospina Ruiz)
+ * @date   26 jul 2017
+ * @version  1.0
+ *
+ * @description  estilos del pie de página
+ *
+ * formateado con https://autoprefixer.github.io/
+ */
+
+.footer-container {
+    background: #0b0b0b;
+    margin: 0;
+    color: #9E9E9E;
+    padding: 30px 0px;
+}
+
+.footer-container ul {
+    list-style: none;
+}
+
+.footer-container ul li  {
+    line-height: 24px;
+}
+
+.footer-container ul li a {
+    color: #9E9E9E;
+}
+
+.footer-container .column {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding: 0;
+}
+
+.footer-container .subtitle {
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+
+.footer-container .separator {
+    margin-bottom: 40px;
+}
+
+.container-center {
+    width: 1024px;
+    margin: 0 auto;
+}

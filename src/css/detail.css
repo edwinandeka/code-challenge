@@ -1,0 +1,118 @@
+
+/**
+ * @author edwinandeka@gmail.com (Edwin Ramiro Ospina Ruiz)
+ * @date   26 jul 2017
+ * @version  1.0
+ *
+ * @description  estilos de las tarjetas del listado de articulos
+ *
+ * formateado con https://autoprefixer.github.io/
+ */
+
+article {
+  background-color: rgb(255, 255, 255);
+  margin: 0px 0px 20px;
+  padding: 20px;
+  border-radius: 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  float: left;
+}
+
+article h3 {
+  background-color: rgb(254, 192, 6);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+}
+
+article.detail-article {
+    width: 800px;
+    margin: 30px auto;
+    float: none;
+    cursor: default;
+    padding: 60px;
+    position: relative;
+}
+
+article.detail-article h2 {
+  color: #aaa;
+}
+
+article.detail-article p {
+  color: #888;
+  padding: 16px;
+  border-left: 3px solid #888;
+      margin: 16px;
+}
+
+article.detail-article .tags {
+    margin-top: 30px;
+}
+
+article.detail-article .tags .tag {
+  padding: 8px;
+      background-color: #CCC;
+      color: #666;
+      margin-right: 8px;
+}
+
+article .published {
+  position: absolute;
+      top: 20px;
+      left: -6px;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      background: #4CAF50;
+      padding: 4px;
+      color: #FFF;
+}
+
+article .published:before,
+article .published:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+}
+
+article .published:before {
+  left: -26px;
+  top: 0;
+  border: 13px solid;
+  border-color: transparent #4CAF50 #4CAF50 transparent;
+}
+
+article .published:after {
+  right: -26px;
+  top: 0;
+  border: 13px solid;
+  border-color: transparent transparent #4CAF50 #4CAF50;
+}
+
+article .not-published {
+  background: #F44336;
+}
+
+article .not-published:before {
+  border-color: transparent #F44336 #F44336 transparent;
+}
+
+article .not-published:after {
+  border-color: transparent transparent #F44336 #F44336;
+}
+
+article a.btn.btn-right {
+    float: right;
+    background-color: #03A9F4;
+    padding: 4px 8px;
+    margin-left: 8px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}

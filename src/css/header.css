@@ -1,0 +1,40 @@
+
+/**
+ * @author edwinandeka@gmail.com (Edwin Ramiro Ospina Ruiz)
+ * @date   26 jul 2017
+ * @version  1.0
+ *
+ * @description  estilos de la cabecera de la página
+ * formateado con https://autoprefixer.github.io/
+ */
+header {
+    height: 70px;
+    background: #9E9E9E;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 30px;
+    position: absolute;
+    background: #FFC107;
+    padding: 0px 23px;
+    top: 0;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+header .btn-create {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    padding: 8px;
+    color: #FFF;
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+
+header .btn-create:hover {
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.25);
+            box-shadow: 0 2px 5px rgba(0,0,0,.25);
+}
